@@ -18,7 +18,7 @@ sudo apt update
 sudo apt install python3-venv
 python3 -m venv /home/ubuntu/env
 source /home/ubuntu/env/bin/activate
-cd pro1
+
 # pip install -r requirements.txt
 
 
@@ -29,5 +29,6 @@ pip install -r /home/ubuntu/pro1/pro1/requirements.txt
 # # Run Django development server in a detached screen session (background)
 # screen -d -m python3 manage.py runserver 0.0.0.0:8000
 # ========================
-python3 manage.py runserver 0.0.0.0:8000
+python3 /home/ubuntu/pro1/pro1/manage.py runserver 0.0.0.0:8000
+
 
