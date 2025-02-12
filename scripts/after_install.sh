@@ -23,7 +23,7 @@ cd pro1
 
 
 # Install dependencies from requirements.txt
-pip install -r /home/ubuntu/pro1/requirements.txt
+pip install -r /home/ubuntu/pro1/pro1/requirements.txt
 
 # # Run Django development server in a detached screen session (background)
 # screen -d -m python3 manage.py runserver 0.0.0.0:8000
