@@ -19,7 +19,7 @@ sudo apt install python3-venv
 python3 -m venv /home/ubuntu/env
 source /home/ubuntu/env/bin/activate
 cd pro1
-pip install -r requirements.txt
+# pip install -r requirements.txt
 
 
 # Install dependencies from requirements.txt
