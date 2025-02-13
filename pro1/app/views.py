@@ -9,4 +9,3 @@ class HomeView(TemplateView):
         return context
 
 
-# ranjeet
